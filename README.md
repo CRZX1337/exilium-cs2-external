@@ -1,16 +1,17 @@
-# React + Vite
+# Exilium CS2 External
+A modern, external assistance tool designed for Counter-Strike 2 with a strict focus on legitimacy, performance, and security.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Exilium is built from the ground up to provide a premium experience without compromising your account. It operates entirely externally, reading memory without injecting code into the game process, ensuring maximum safety.
 
-Currently, two official plugins are available:
+### ✨ Core Features
+*   **Humanized Aim Assist** — Advanced bezier-curve smoothing with distance-based dynamic speed and micro-jitter to perfectly mimic natural human aiming.
+*   **Weapon-Specific Profiles** — Independent configurations for Pistols, Heavy Pistols, SMGs, Rifles, and Snipers for granular control.
+*   **Advanced Sniper Integration** — Features like *Auto Shot* (fires when perfectly aligned), *Scope Only* activation, and configurable *Aim Delay* to simulate natural reaction times.
+*   **Recoil Control System (RCS)** — Fully customizable delta-based recoil control that perfectly counteracts weapon spray patterns.
+*   **Visual Overlays** — Clean, performant ESP (Boxes, Bones, Health, Weapon, Name), a dynamic 2D Radar, and Bomb Timer.
+*   **Modern UI** — An intuitive, tabbed interface powered by ImGui, featuring a built-in configuration manager to save and load your preferred settings.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📥 Installation & Usage
+Head over to the [Releases](../../releases) tab to download the latest compiled version of Exilium.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*Note: This repository hosts the public releases and documentation for Exilium. The core source code remains private to protect the integrity and security of the client.*
